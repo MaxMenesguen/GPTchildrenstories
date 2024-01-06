@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GPT  Children Stories Text Generation</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.13.1/dist/ort.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>GPT  Children Stories Text Generation</h1>
+        <p>This tool generates text using a GPT model and it is trained on a rich dataset of children's stories.</p>
+        <div class="input-group">
+            <input id="tokenInput" type="number" placeholder="Number of Tokens">
+            <textarea id="inputContext" placeholder="Enter context here"></textarea>
+        </div>
+        <button id="generateButton">Generate</button>
+        
+        <div id="outputSection">
+            <p id="outputText"></p> <!-- Zone de texte pour afficher le texte généré -->
+        </div>
+    </div>
+</body>
+</html>
